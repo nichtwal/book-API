@@ -1,0 +1,40 @@
+.book-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 20px;
+  justify-items: center;
+  background: url("../../assets/bookshelf.jpeg") center center / cover no-repeat;
+
+  .book-item {
+    margin: 20px 0 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    max-width: 250px;
+    background: #ffffffbb;
+    cursor: pointer;
+    padding-bottom: 20px;
+
+    h3 {
+      text-transform: capitalize;
+      padding: 5px 5px 10px;
+    }
+    h5 {
+      font-size: 14px;
+      text-transform: capitalize;
+      padding: 0 5px 0;
+    }
+
+    .image-container {
+      width: 100%;
+      overflow: hidden;
+
+      img {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        width: 250px;
+        height: 300px;
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+.header {
+    border-bottom: 1px solid grey;
+    padding: 20px 10px;
+    background: rgb(203, 206, 177);
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 30px;
+        .wrapper {
+            display: flex;
+            align-items: center;
+        }
+        .discription {
+            margin: 0 20px;
+            p{
+                font-size: 14px;
+            }
+        }
+        
+        
+        
+        
+    }
+}
